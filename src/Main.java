@@ -1,4 +1,4 @@
-
+import java.util.Stack;
 
 class Parser {
     // A static method that checks if a given string of brackets is balanced
