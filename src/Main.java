@@ -1,6 +1,6 @@
 import java.util.Stack;
 
-class Parser {
+class checkBraces {
     // A static method that checks if a given string of brackets is balanced
     static String isBalanced(String s) {
         // Create a stack to keep track of opening brackets
