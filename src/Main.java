@@ -33,10 +33,11 @@ class checkBraces {
         return stack.isEmpty() ? "true" : "false";
     }
 
-     public static void main(String[] args) {
+     /*public static void main(String[] args) {
         String input = "{[()]}";
         System.out.println(isBalanced(input)); // Output should be "true"
-    }
+    }*/
+
 }
 
 
