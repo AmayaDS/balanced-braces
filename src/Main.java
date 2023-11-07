@@ -1,4 +1,5 @@
 import java.util.Stack;
+import java.util.Scanner;
 
 class checkBraces {
     // A static method that checks if a given string of brackets is balanced
