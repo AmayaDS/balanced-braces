@@ -46,7 +46,17 @@ class checkBraces {
         //while (scanner.hasNext()) {
             //System.out.println(checkBraces.isBalanced(scanner.next()));
         //}
+         System.out.println("Type input strings (press Enter after each string):");
 
+        while (true) {
+            String input = scanner.nextLine();
+            if (input.isEmpty()) {
+                break;
+            }
+            System.out.println(isBalanced(input));
+        }
+        scanner.close();
+    }
 }
 
 
