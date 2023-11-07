@@ -38,6 +38,15 @@ class checkBraces {
         System.out.println(isBalanced(input)); // Output should be "true"
     }*/
 
+     public static void main(String[] args){
+        //checkBraces braces = new checkBraces();
+
+        Scanner scanner = new Scanner(System.in);
+
+        //while (scanner.hasNext()) {
+            //System.out.println(checkBraces.isBalanced(scanner.next()));
+        //}
+
 }
 
 
